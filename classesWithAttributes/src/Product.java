@@ -1,5 +1,19 @@
 public class Product {
 
+        public Product(int id, String name, String description, double price, int stockAmount, String renk){
+            System.out.println("Yapici blok calisti");
+            this.id = id;
+            this.renk= renk;
+            this.name = name;
+            this.price= price;
+            this.description= description;
+            this.stockAmount = stockAmount;
+
+        }
+    public Product(){
+
+
+    }
     //das ist alles public
     private int id;         //private gilt nur in das was geschweifte KKlammer
     private String name;
